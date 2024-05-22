@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/nature-gallery-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #323f4b;
+    text-align: center;
+}
+
+.card-container {
+    background-color: #ffffff;
+    width: 70%;
+    padding: 5px 0px 0px 0px;
+    margin: auto;
+    max-width: 710px;
+    overflow-x: auto;
+}
+
+.image-container {
+    width: 900px;
+    padding: 20px;
+}
+
+.image-sizing {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+}
